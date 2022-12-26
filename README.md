@@ -1,6 +1,10 @@
 # docker-cheatseet
 Common commands neededs
 
+# Install
+
+apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
 
 # Create Instance
   
