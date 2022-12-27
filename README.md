@@ -40,5 +40,9 @@ docker container run --name test_deb -v /home/felipe/apache:/var/www/html  -it d
 
 docker start test_deb
 
+# Remove All Images
+
+docker system prune -a
+
 
 
