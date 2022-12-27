@@ -34,7 +34,7 @@ docker container prune -f
 
 # Mapd Dir
 
-docker container run --name test_deb2 -v /home/felipe/apache:/var/www/html  -it debian bash
+docker container run --name test_deb -v /home/felipe/apache:/var/www/html  -it debian bash
 
 # Daemon
 
