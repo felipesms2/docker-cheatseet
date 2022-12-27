@@ -18,7 +18,7 @@ apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin dock
 
 docker stop $(docker ps -q)
 
-(<a target='_blank' href='https://www.unixtutorial.org/docker-stop-all-containers/'>Detail</a>)
+<a target='_blank' href='https://www.unixtutorial.org/docker-stop-all-containers/'>Detail</a>
 
 # Multiple Command
 
