@@ -19,3 +19,11 @@ apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 docker stop $(docker ps -q)
 
 (<a target='_blank' href='https://www.unixtutorial.org/docker-stop-all-containers/'>from this website</a>)
+
+# Multiple Command
+
+<br>
+  need to start daemon before
+<br>
+
+docker exec debian2 "uname";"uname";ip addr;"uname"
