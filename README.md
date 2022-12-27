@@ -18,7 +18,7 @@ apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin dock
 
 docker stop $(docker ps -q)
 
-(<a target='_blank' href='https://www.unixtutorial.org/docker-stop-all-containers/'>from this website</a>)
+(<a target='_blank' href='https://www.unixtutorial.org/docker-stop-all-containers/'>Detail</a>)
 
 # Multiple Command
 
@@ -43,6 +43,7 @@ docker start test_deb
 # Remove All Images
 
 docker system prune -a
-
+<br>
+<a href='https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#removing-volumes'>Detail</a>
 
 
