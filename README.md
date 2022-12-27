@@ -3,7 +3,7 @@ Common commands neededs
 
 # Install
 
-apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-compose
 
 
 # Create Instance
