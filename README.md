@@ -36,5 +36,9 @@ docker container prune -f
 
 docker container run --name test_deb2 -v /home/felipe/apache:/var/www/html  -it debian bash
 
+# Daemon
+
+docker start test_deb
+
 
 
