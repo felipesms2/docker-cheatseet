@@ -46,4 +46,9 @@ docker system prune -a
 <br>
 <a href='https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#removing-volumes'>Detail</a>
 
+# Build from Dockerfile
+
+docker image build -t somedebian .
+
+
 
