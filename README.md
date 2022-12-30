@@ -79,3 +79,6 @@ docker image tag lamp_debian felipesms/lamp_debian:1.0 <br>
 docker image push felipesms/lamp_debian:1.0 
 
 
+# Network
+
+ docker container run -d --net none felipesms/lamp_debian:1.0
