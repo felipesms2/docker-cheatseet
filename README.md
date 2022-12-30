@@ -56,18 +56,18 @@ docker container run -it --volumes-from=9be2b7cb66ad debian cat /log/http-server
 
 # Dockerfile for map port by default
 
-FROM python:3.6
-LABEL manteiner="Aluno"
-RUN useradd www && \
-    mkdir /app && \
-    mkdir /log && \
-    chown www /log && \ 
-    apt install python3 -y
- 
-USER www
-VOLUME /log
-WORKDIR /app
-EXPOSE 8095
-ENTRYPOINT [ "/usr/bin/python3"]
-CMD [ "run.py" ]
+FROM python:3.6 <br>
+LABEL manteiner="Aluno" <br>
+RUN useradd www && \ <br>
+    mkdir /app && \ <br>
+    mkdir /log && \ <br>
+    chown www /log && \ <br> 
+    apt install python3 -y <br>
+ <br>
+USER www <br>
+VOLUME /log <br>
+WORKDIR /app <br>
+EXPOSE 8095 <br>
+ENTRYPOINT [ "/usr/bin/python3"] <br>
+CMD [ "run.py" ] <br>
 
