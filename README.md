@@ -50,5 +50,8 @@ docker system prune -a
 
 docker image build -t somedebian .
 
+# Get volume from another container
+
+docker container run -it --volumes-from=9be2b7cb66ad debian cat /log/http-server.log
 
 
