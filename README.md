@@ -71,3 +71,11 @@ EXPOSE 8095 <br>
 ENTRYPOINT [ "/usr/bin/python3"] <br>
 CMD [ "run.py" ] <br>
 
+
+# Push on DockerHub
+
+docker image tag lamp_debian felipesms/lamp_debian:1.0 <br>
+(tag the image alias 'lamp_deb') <br>
+docker image push felipesms/lamp_debian:1.0 
+
+
