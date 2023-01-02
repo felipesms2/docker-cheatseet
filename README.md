@@ -103,6 +103,8 @@ docker network create --driver bridge new_network
 # Connections between networks
   <br>
 docker network connect bridge container3
+<br>
+(for disconnect just change verb disconnect)
 
 
 
