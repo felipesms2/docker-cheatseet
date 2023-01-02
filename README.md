@@ -86,6 +86,11 @@ docker image push felipesms/lamp_debian:1.0
  <strrong>List Network</strong>
  <br>
  docker network ls
+ <br>
+ <strong>Inspect some specific network</strong>
+<br>
+ docker inspect network bridge
+
 
  
  
