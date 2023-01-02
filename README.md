@@ -96,5 +96,10 @@ docker image push felipesms/lamp_debian:1.0
  docker inspect network bridge
 
 
+# Create new network
+
+docker network create --driver bridge new_network
+
+
  
  
