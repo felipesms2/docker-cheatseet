@@ -28,6 +28,10 @@ docker stop $(docker ps -q)
 
 docker exec debian2 "uname";"uname";ip addr;"uname"
 
+# Exec specific command and return data
+
+docker container exec -it container1 ifconfig
+
 # Delete All Stopped
 
 docker container prune -f
