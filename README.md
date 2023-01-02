@@ -87,6 +87,9 @@ docker image push felipesms/lamp_debian:1.0
 
  docker container run -d --net none felipesms/lamp_debian:1.0
  <br>
+ (network host if want to use the same real interface)
+ <br>
+ 
  <strrong>List Network</strong>
  <br>
  docker network ls
