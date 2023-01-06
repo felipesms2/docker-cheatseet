@@ -114,6 +114,10 @@ docker network connect bridge container3
 
 sudo usermod -aG docker $USER && newgrp docker
 
+# Assign Port to existing
+
+<a href='https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container'>https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container</a>
+
 
  
  
