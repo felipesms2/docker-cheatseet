@@ -110,6 +110,10 @@ docker network connect bridge container3
 (for disconnect just change verb disconnect)
 
 
+# Run without sudo 
+
+sudo usermod -aG docker $USER && newgrp docker
+
 
  
  
