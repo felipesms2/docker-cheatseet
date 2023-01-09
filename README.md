@@ -121,3 +121,16 @@ sudo usermod -aG docker $USER && newgrp docker
 
  
  
+# Docker composer file sample
+
+(<a href='https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Simple-Apache-docker-compose-example-with-Dockers-httpd-image' target='_blank'>website</a>)
+
+version: '3.9'
+services:
+  apache:
+    image: httpd:latest
+    container_name: my-apache-app
+    ports:
+    - '8080:80'
+    volumes:
+    - ./website:/usr/local/apache2/htdocs
