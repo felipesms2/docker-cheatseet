@@ -137,7 +137,7 @@ services:
 
 # One Script install
 
-curl -fsSL https://get.docker.com | sh ; sudo usermod -aG docker $(whoami)
+curl -fsSL https://get.docker.com | sh ; sudo usermod -aG docker ${USER}; su - ${USER} ; id -nG ; sudo usermod -aG docker ${USER}
 
 
 
